@@ -85,6 +85,8 @@ function onResultsPose(results) {
     canvasCtx.fillStyle = "red"
     canvasCtx.fillText(stage + ": " + counter.toString(), 320, 50)
     canvasCtx.restore()
+
+    return counter
 }
 
 const pose = new Pose({
